@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600&display=swap');
-
 :root {
   --brand-blue: #1A4FBA;
   --brand-navy: #0D2B6B;
@@ -11,9 +9,7 @@
   --brand-accent: #F97316;
 }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
   font-family: 'DM Sans', sans-serif;
@@ -42,19 +38,6 @@ h1, h2, h3, h4, h5 {
 .card-hover:hover {
   transform: translateY(-4px);
   box-shadow: 0 20px 40px rgba(26, 79, 186, 0.12);
-}
-
-.section-fade {
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeUp 0.6s ease forwards;
-}
-
-@keyframes fadeUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 .counter-num {
