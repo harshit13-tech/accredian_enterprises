@@ -8,8 +8,7 @@ const faqs = [
   },
   {
     q: 'Can you customize the curriculum for our industry?',
-    a: 'Absolutely. We have built custom programs for BFSI, e-commerce, healthcare, manufacturing, and more. Our curriculum team will work with your L&D lead to design content that uses your industry's context and data.',
-  },
+   a: "Absolutely. We have built custom programs for BFSI, e-commerce, healthcare, manufacturing, and more. Our curriculum team will work with your L&D lead to design content that uses your industry context and data.",
   {
     q: 'What is the minimum team size for enterprise programs?',
     a: 'We work with teams as small as 10 and as large as 5,000+. Our pricing is flexible and scales with your team size.',
